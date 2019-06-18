@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Servlet</display-name>
+  <welcome-file-list>
+  <welcome-file>Index.html</welcome-file>
+  </welcome-file-list>
+  <servlet-mapping>
+  <servlet-name>ServletDemo</servlet-name>
+  <url-pattern>/fs</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>ServletDemo</servlet-name>
+  <servlet-class>com.servlet.assign.ServletDemo</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>FirstServlet</servlet-name>
+  <url-pattern>/fds</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>FirstServlet</servlet-name>
+  <servlet-class>com.servlet.assign.FirstServlet</servlet-class>
+  </servlet>
+</web-app>
